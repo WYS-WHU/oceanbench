@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "oceanbench_version": "0.4.0",
-  "challenger": "Hybrid-K2-K3-K5 per-metric minimum",
+  "challenger": "Hybrid-K2-K3-K5 per-metric minimum 1 degree",
   "region": {
     "id": "global",
     "display_name": "Global",
@@ -10,7 +10,7 @@
   },
   "lead_days_count": 10,
   "challenger_code": "# ORACLE: minimum of separately evaluated HYBRID-K2, HYBRID-K3 and HYBRID-K5 for each metric/variable/depth/lead. Not a single model, not a realizable forecast or official submission. Reconstructed from six-decimal score tables.",
-  "created_at": "2026-11-19T06:05:48.972110+00:00",
+  "created_at": "2026-11-19T06:17:06.466687+00:00",
   "timings": {},
   "rows": [
     {
