@@ -1,0 +1,6977 @@
+{
+  "schema_version": 1,
+  "oceanbench_version": "0.4.0",
+  "challenger": "HYBRID K2 K3 K5 ORACLE - 0.4.0 one-degree scores shown for comparison only",
+  "region": {
+    "id": "global",
+    "display_name": "Global",
+    "official": true,
+    "bounds": null
+  },
+  "lead_days_count": 10,
+  "challenger_code": "# ORACLE: minimum of separately evaluated HYBRID-K2, HYBRID-K3 and HYBRID-K5 for each metric/variable/depth/lead. Not a single model, not a realizable forecast or official submission. Reconstructed from six-decimal score tables.\n# DISPLAY ONLY: 0.4.0 one-degree scores placed on high-resolution comparison page. Not a high-resolution evaluation; not 0.6.0 scoring.",
+  "created_at": "2026-11-19T06:17:06.466687+00:00",
+  "timings": {},
+  "rows": [
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 1,
+      "value": 0.018463
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.193465
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.10283
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.057699
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.056677
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.640514
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.105928
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.053822
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.054936
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.294688
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.045703
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.043447
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.042535
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.205088
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.034342
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.034032
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.032249
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.169136
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.02816
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.030885
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.028968
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.124626
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.020011
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.025999
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.024228
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 2,
+      "value": 0.027182
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.284982
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.15023
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.076043
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.07563
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.68063
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.116655
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.068087
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.069262
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.399095
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.065079
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.059876
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.059169
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.295015
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.050595
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.048735
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.047042
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.248445
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.04231
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.044753
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.042757
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.186714
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.030782
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.038136
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.036315
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 3,
+      "value": 0.033751
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.349334
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.180539
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.087686
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.087492
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.715768
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.125235
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.07851
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.079458
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.476402
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.079005
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.070603
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.070129
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.364855
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.062973
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.059043
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.057421
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.311343
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.053077
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.054768
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.052762
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.236712
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.039109
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.047176
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.045316
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 4,
+      "value": 0.039602
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.397133
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.202919
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.096597
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.096668
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.746038
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.132148
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.086397
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.087432
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.541071
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.089325
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.078611
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.078234
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.420938
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.072248
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.066882
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.065243
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.36123
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.061007
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.062469
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.060432
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.277494
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.045409
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.054282
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.052355
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 5,
+      "value": 0.045177
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.436698
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.220458
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.104065
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.104503
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.775296
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.13821
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.092858
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.094189
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.59671
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.097381
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.085185
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.084851
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.467602
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.079403
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.07336
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.071549
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.402438
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.067167
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.068886
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.066664
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.311476
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.050281
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.06024
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.058179
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 6,
+      "value": 0.050274
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.471171
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.2382
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.110697
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.111701
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.802624
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.14367
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.098742
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.100373
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.645561
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.104043
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.091019
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.090738
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.508565
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.085257
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.079114
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.077189
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.43896
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.072319
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.074584
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.072195
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.340992
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.05426
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.065484
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.06331
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 7,
+      "value": 0.054977
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.504759
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.254293
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.117382
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.118529
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.829158
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.148835
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.104482
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.106386
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.690547
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.1099
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.096559
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.096362
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.545464
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.090392
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.084442
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.082323
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.472506
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.0769
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.079779
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.077242
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.368154
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.057762
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.070306
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.06794
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 8,
+      "value": 0.059348
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.536352
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.268621
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.12343
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.125263
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.853336
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.153437
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.109519
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.111825
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.729463
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.114937
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.101344
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.10142
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.577729
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.094674
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.089076
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.086957
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.501916
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.08078
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.08436
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.081791
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.391975
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.060758
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.074545
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.072122
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 9,
+      "value": 0.062427
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.559455
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.280281
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.127325
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.12962
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.868762
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.156188
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.112373
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.115272
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.753396
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.117979
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.104171
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.104637
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.597992
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.09735
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.091957
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.09003
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.520937
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.08332
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.087299
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.084824
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.407672
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.062728
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.077408
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.07506
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 10,
+      "value": 0.065521
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.582649
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.292395
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.130783
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.133611
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.883897
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.158618
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.114889
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.118031
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.774733
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.120627
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.106451
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.107317
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.615688
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.099697
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.094377
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.092642
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.537255
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.085475
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.08977
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.087422
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.421225
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.064441
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.079802
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glo12_analysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.077579
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 1,
+      "value": 0.067997
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.555425
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.590615
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.128317
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.130378
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.882901
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.271953
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.122836
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.124686
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 1.092248
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.197115
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.119913
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.125212
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.907919
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.161415
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.118088
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.124307
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.767673
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.134582
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.115486
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.120172
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.590775
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.102082
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.106033
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.110157
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 2,
+      "value": 0.069184
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.563082
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.583162
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.125918
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.12807
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.875474
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.268438
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.120454
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.122019
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 1.083594
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.194077
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.117322
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.122742
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.900254
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.158964
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.116188
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.122328
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.760716
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.132508
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.1137
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.118309
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.58471
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.100593
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.10445
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.108476
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 3,
+      "value": 0.070376
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.570403
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.576823
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.123966
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.126202
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.86762
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.26499
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.1183
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.119715
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 1.075142
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.190952
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.115016
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.120331
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.892354
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.156265
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.114016
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.120086
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.753403
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.130196
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.111595
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.116139
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.578498
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.098924
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.102608
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.106484
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 4,
+      "value": 0.071812
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.577747
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.571611
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.122903
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.125308
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.861772
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.261938
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.116778
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.118167
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 1.069397
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.188264
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.113113
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.118475
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.885914
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.153738
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.111974
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.118007
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.747954
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.128066
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.109526
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.114084
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.573871
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.09738
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.10073
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.104548
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 5,
+      "value": 0.073638
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.586925
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.567568
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.122768
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.12553
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.858967
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.259454
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.115944
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.117354
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 1.065694
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.186023
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.111769
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.117224
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.881434
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.151567
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.110239
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.116283
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.74441
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.126255
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.107756
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.112343
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.570823
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.09601
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.099093
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.102874
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 6,
+      "value": 0.075603
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.598539
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.564952
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.123621
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.126634
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.859185
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.257601
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.115807
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.117334
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 1.06542
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.184308
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.111066
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.116538
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.879388
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.149843
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.108924
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.115057
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.742991
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.124786
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.106367
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.111041
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.569895
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.094938
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.097727
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.101548
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 7,
+      "value": 0.077633
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.613305
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.563191
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.12515
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.128776
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.862413
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.256315
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.116232
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.118129
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 1.068622
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.183129
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.111029
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.116557
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.879651
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.148554
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.108142
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.11432
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.743609
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.123701
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.105435
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.110165
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.570888
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.094144
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.096697
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.100546
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 8,
+      "value": 0.079709
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.628978
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.56184
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.127561
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.131348
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.867474
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.255321
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.117272
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.119305
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 1.072107
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.182276
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.111533
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.117159
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.880862
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.147509
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.107693
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.114006
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.745602
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.122901
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.104805
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.109617
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.5729
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.093548
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.095887
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.099806
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 9,
+      "value": 0.081465
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.642102
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.5604
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.129276
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.133072
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.869931
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.254243
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.117643
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.119793
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 1.073224
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.181335
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.11148
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.117322
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.880406
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.146412
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.107088
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.113419
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.745943
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.122033
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.104001
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.108951
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.573529
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.092904
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.095031
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.099054
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "sea surface height",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 10,
+      "value": 0.083418
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.657035
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "surface",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.559822
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.131123
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.13517
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "50m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.874218
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "50m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.253354
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.118201
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "50m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.120491
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 1.075164
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.180512
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.111617
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "100m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.117649
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "200m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.880465
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "200m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.14548
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.106569
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "200m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.113013
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.746436
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.121308
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.103364
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "300m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.108463
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "500m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.5746
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "500m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.092418
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.094295
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "500m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.098447
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.7715886655955196
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "0-5m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.7854228220654189
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "5-100m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.90475
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100-300m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.8245953488268845
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300-600m",
+      "unit": "°C",
+      "lead_day": 1,
+      "value": 0.560422
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "0-5m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.24214
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "5-100m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.196209
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100-300m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.129327
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300-600m",
+      "unit": "PSU",
+      "lead_day": 1,
+      "value": 0.082026
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "sea level anomaly",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 1,
+      "value": 0.0524756104724402
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.2132446083360164
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.192625
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.8084524445052562
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "0-5m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.785025327000849
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "5-100m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.892169
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100-300m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.829503
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300-600m",
+      "unit": "°C",
+      "lead_day": 2,
+      "value": 0.567222
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "0-5m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.250163
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "5-100m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.196005
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100-300m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.129131
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300-600m",
+      "unit": "PSU",
+      "lead_day": 2,
+      "value": 0.082385
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "sea level anomaly",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 2,
+      "value": 0.053721
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.211978
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.192349
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.7754349587577185
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "0-5m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.815076
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "5-100m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.882778
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100-300m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.82158
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300-600m",
+      "unit": "°C",
+      "lead_day": 3,
+      "value": 0.560227
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "0-5m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.25187
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "5-100m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.201714
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100-300m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.129399
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300-600m",
+      "unit": "PSU",
+      "lead_day": 3,
+      "value": 0.080278
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "sea level anomaly",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 3,
+      "value": 0.054778
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.214049
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.193524
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.795102
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "0-5m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.832968
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "5-100m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.912737
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100-300m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.825083
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300-600m",
+      "unit": "°C",
+      "lead_day": 4,
+      "value": 0.576171
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "0-5m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.274274
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "5-100m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.196655
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100-300m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.127585
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300-600m",
+      "unit": "PSU",
+      "lead_day": 4,
+      "value": 0.082186
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "sea level anomaly",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 4,
+      "value": 0.056875
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.214084
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.195163
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.813136
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "0-5m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.824728
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "5-100m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.893306
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100-300m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.843402
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300-600m",
+      "unit": "°C",
+      "lead_day": 5,
+      "value": 0.581315
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "0-5m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.25674
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "5-100m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.197766
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100-300m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.130161
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300-600m",
+      "unit": "PSU",
+      "lead_day": 5,
+      "value": 0.082069
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "sea level anomaly",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 5,
+      "value": 0.058785
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.212057
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.194893
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.858723
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "0-5m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.857726
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "5-100m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.908142
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100-300m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.832502
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300-600m",
+      "unit": "°C",
+      "lead_day": 6,
+      "value": 0.582676
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "0-5m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.265836
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "5-100m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.196358
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100-300m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.126632
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300-600m",
+      "unit": "PSU",
+      "lead_day": 6,
+      "value": 0.080826
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "sea level anomaly",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 6,
+      "value": 0.060855
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.212878
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.195933
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.857354
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "0-5m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.865328
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "5-100m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.922937
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100-300m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.854438
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300-600m",
+      "unit": "°C",
+      "lead_day": 7,
+      "value": 0.595691
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "0-5m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.247875
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "5-100m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.198428
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100-300m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.132239
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300-600m",
+      "unit": "PSU",
+      "lead_day": 7,
+      "value": 0.082951
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "sea level anomaly",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 7,
+      "value": 0.063141
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.215161
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.196343
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.866044
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "0-5m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.843552
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "5-100m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.930711
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100-300m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.862887
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300-600m",
+      "unit": "°C",
+      "lead_day": 8,
+      "value": 0.603545
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "0-5m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.241122
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "5-100m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.192809
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100-300m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.128975
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300-600m",
+      "unit": "PSU",
+      "lead_day": 8,
+      "value": 0.082747
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "sea level anomaly",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 8,
+      "value": 0.06487
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.216901
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.198066
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.900693
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "0-5m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.860781
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "5-100m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.945112
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100-300m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.874496
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300-600m",
+      "unit": "°C",
+      "lead_day": 9,
+      "value": 0.613051
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "0-5m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.252381
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "5-100m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.196995
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100-300m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.129973
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300-600m",
+      "unit": "PSU",
+      "lead_day": 9,
+      "value": 0.083168
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "sea level anomaly",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 9,
+      "value": 0.067573
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.21659
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.19822
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "surface",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.868248
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "0-5m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.889466
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "5-100m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.948773
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "100-300m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.878001
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "temperature",
+      "standard_name": "sea_water_potential_temperature",
+      "depth": "300-600m",
+      "unit": "°C",
+      "lead_day": 10,
+      "value": 0.614666
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "0-5m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.270458
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "5-100m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.207154
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "100-300m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.134967
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "salinity",
+      "standard_name": "sea_water_salinity",
+      "depth": "300-600m",
+      "unit": "PSU",
+      "lead_day": 10,
+      "value": 0.084813
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "sea level anomaly",
+      "standard_name": "sea_surface_height_above_geoid",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 10,
+      "value": 0.069392
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "zonal current",
+      "standard_name": "eastward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.21885
+    },
+    {
+      "metric": "rmsd_of_variables",
+      "reference": "observations",
+      "variable": "meridional current",
+      "standard_name": "northward_sea_water_velocity",
+      "depth": "15m",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.198997
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glo12_analysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 1,
+      "value": 18.272093
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glo12_analysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 2,
+      "value": 25.609327
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glo12_analysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 3,
+      "value": 31.208151
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glo12_analysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 4,
+      "value": 35.378246
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glo12_analysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 5,
+      "value": 38.599319
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glo12_analysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 6,
+      "value": 41.329697
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glo12_analysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 7,
+      "value": 43.746258
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glo12_analysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 8,
+      "value": 45.643005
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glo12_analysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 9,
+      "value": 47.159054
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glo12_analysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 10,
+      "value": 48.565971
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.03682
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.044342
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.047527
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.052776
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.057956
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.062941
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.067929
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.072129
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.075527
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.078883
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.031942
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.040074
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.045404
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.051732
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.057732
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.063367
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.068642
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.07353
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.077331
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glo12_analysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.080671
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glo12_analysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 2,
+      "value": 4.86749
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glo12_analysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 3,
+      "value": 9.769643
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glo12_analysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 4,
+      "value": 14.653359
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glo12_analysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 5,
+      "value": 19.625834
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glo12_analysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 6,
+      "value": 24.766634
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glo12_analysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 7,
+      "value": 30.10602
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glo12_analysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 8,
+      "value": 35.640533
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glo12_analysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 9,
+      "value": 41.31789
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glorys_reanalysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 1,
+      "value": 34.358097
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glorys_reanalysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 2,
+      "value": 37.200401
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glorys_reanalysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 3,
+      "value": 40.408737
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glorys_reanalysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 4,
+      "value": 43.303806
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glorys_reanalysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 5,
+      "value": 45.713284
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glorys_reanalysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 6,
+      "value": 47.761978
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glorys_reanalysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 7,
+      "value": 49.732925
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glorys_reanalysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 8,
+      "value": 51.359234
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glorys_reanalysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 9,
+      "value": 52.620872
+    },
+    {
+      "metric": "rmsd_of_mixed_layer_depth",
+      "reference": "glorys_reanalysis",
+      "variable": "mixed layer depth",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "depth": "surface",
+      "unit": "m",
+      "lead_day": 10,
+      "value": 53.808208
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.062269
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.062563
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.064174
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.066593
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.069322
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.071805
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.07502
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.077988
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.080868
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "zonal geostrophic current",
+      "standard_name": "geostrophic_eastward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.083567
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 1,
+      "value": 0.061269
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 2,
+      "value": 0.062207
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 3,
+      "value": 0.064421
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 4,
+      "value": 0.067225
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 5,
+      "value": 0.070426
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 6,
+      "value": 0.073519
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 7,
+      "value": 0.076818
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 8,
+      "value": 0.080052
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 9,
+      "value": 0.082855
+    },
+    {
+      "metric": "rmsd_of_geostrophic_currents",
+      "reference": "glorys_reanalysis",
+      "variable": "meridional geostrophic current",
+      "standard_name": "geostrophic_northward_sea_water_velocity",
+      "depth": "surface",
+      "unit": "m/s",
+      "lead_day": 10,
+      "value": 0.085719
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glorys_reanalysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 2,
+      "value": 10.457281
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glorys_reanalysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 3,
+      "value": 18.956501
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glorys_reanalysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 4,
+      "value": 26.402426
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glorys_reanalysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 5,
+      "value": 33.233486
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glorys_reanalysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 6,
+      "value": 39.720718
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glorys_reanalysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 7,
+      "value": 46.005527
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glorys_reanalysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 8,
+      "value": 52.172283
+    },
+    {
+      "metric": "deviation_of_lagrangian_trajectories",
+      "reference": "glorys_reanalysis",
+      "variable": "lagrangian trajectory deviation",
+      "standard_name": null,
+      "depth": "surface",
+      "unit": "km",
+      "lead_day": 9,
+      "value": 58.254631
+    }
+  ]
+}
