@@ -9,8 +9,8 @@
     "bounds": null
   },
   "lead_days_count": 10,
-  "challenger_code": "# ORACLE: minimum of separately evaluated HYBRID-K2, HYBRID-K3 and HYBRID-K5 for each metric/variable/depth/lead. Not a single model, not a realizable forecast or official submission. Reconstructed from six-decimal score tables. One-degree source, comparison-only display in high-resolution track; NOT a high-resolution evaluation. OceanBench evaluation version remains 0.4.0; 0.6.0 comparisons are cross-version.",
-  "created_at": "2026-11-19T06:17:06.466687+00:00",
+  "challenger_code": "# ORACLE: per-metric minimum of separately evaluated HYBRID-K2, HYBRID-K3, HYBRID-K5 and HYBRID+B-SOFT K3 for each metric/variable/depth/lead, selected after observing 2024 test outcomes. Not a single model, a realizable forecast, or an official submission. Reconstructed from six-decimal notebook tables. 1-degree values shown in the high-resolution comparison view; NOT a high-resolution evaluation. OceanBench 0.4.0; valid supports may differ.",
+  "created_at": "2026-11-25T08:47:07.985146+00:00",
   "timings": {},
   "rows": [
     {
@@ -41,7 +41,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 1,
-      "value": 0.10283
+      "value": 0.102725
     },
     {
       "metric": "rmsd_of_variables",
@@ -281,7 +281,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 2,
-      "value": 0.284982
+      "value": 0.284958
     },
     {
       "metric": "rmsd_of_variables",
@@ -291,7 +291,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 2,
-      "value": 0.15023
+      "value": 0.149949
     },
     {
       "metric": "rmsd_of_variables",
@@ -531,7 +531,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 3,
-      "value": 0.349334
+      "value": 0.348676
     },
     {
       "metric": "rmsd_of_variables",
@@ -541,7 +541,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 3,
-      "value": 0.180539
+      "value": 0.179804
     },
     {
       "metric": "rmsd_of_variables",
@@ -781,7 +781,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 4,
-      "value": 0.397133
+      "value": 0.396264
     },
     {
       "metric": "rmsd_of_variables",
@@ -1031,7 +1031,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 5,
-      "value": 0.436698
+      "value": 0.436529
     },
     {
       "metric": "rmsd_of_variables",
@@ -2611,7 +2611,7 @@
       "depth": "100m",
       "unit": "°C",
       "lead_day": 1,
-      "value": 1.092248
+      "value": 1.09224
     },
     {
       "metric": "rmsd_of_variables",
@@ -2651,7 +2651,7 @@
       "depth": "200m",
       "unit": "°C",
       "lead_day": 1,
-      "value": 0.907919
+      "value": 0.907661
     },
     {
       "metric": "rmsd_of_variables",
@@ -2791,7 +2791,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 2,
-      "value": 0.583162
+      "value": 0.583039
     },
     {
       "metric": "rmsd_of_variables",
@@ -2861,7 +2861,7 @@
       "depth": "100m",
       "unit": "°C",
       "lead_day": 2,
-      "value": 1.083594
+      "value": 1.083071
     },
     {
       "metric": "rmsd_of_variables",
@@ -2901,7 +2901,7 @@
       "depth": "200m",
       "unit": "°C",
       "lead_day": 2,
-      "value": 0.900254
+      "value": 0.899835
     },
     {
       "metric": "rmsd_of_variables",
@@ -3031,7 +3031,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 3,
-      "value": 0.570403
+      "value": 0.569634
     },
     {
       "metric": "rmsd_of_variables",
@@ -3041,7 +3041,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 3,
-      "value": 0.576823
+      "value": 0.57595
     },
     {
       "metric": "rmsd_of_variables",
@@ -3151,7 +3151,7 @@
       "depth": "200m",
       "unit": "°C",
       "lead_day": 3,
-      "value": 0.892354
+      "value": 0.891809
     },
     {
       "metric": "rmsd_of_variables",
@@ -3281,7 +3281,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 4,
-      "value": 0.577747
+      "value": 0.576968
     },
     {
       "metric": "rmsd_of_variables",
@@ -3291,7 +3291,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 4,
-      "value": 0.571611
+      "value": 0.570012
     },
     {
       "metric": "rmsd_of_variables",
@@ -3401,7 +3401,7 @@
       "depth": "200m",
       "unit": "°C",
       "lead_day": 4,
-      "value": 0.885914
+      "value": 0.885496
     },
     {
       "metric": "rmsd_of_variables",
@@ -3531,7 +3531,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 5,
-      "value": 0.586925
+      "value": 0.586743
     },
     {
       "metric": "rmsd_of_variables",
@@ -3541,7 +3541,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 5,
-      "value": 0.567568
+      "value": 0.565521
     },
     {
       "metric": "rmsd_of_variables",
@@ -3791,7 +3791,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 6,
-      "value": 0.564952
+      "value": 0.562685
     },
     {
       "metric": "rmsd_of_variables",
@@ -4041,7 +4041,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 7,
-      "value": 0.563191
+      "value": 0.560459
     },
     {
       "metric": "rmsd_of_variables",
@@ -4291,7 +4291,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 8,
-      "value": 0.56184
+      "value": 0.558789
     },
     {
       "metric": "rmsd_of_variables",
@@ -4541,7 +4541,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 9,
-      "value": 0.5604
+      "value": 0.557423
     },
     {
       "metric": "rmsd_of_variables",
@@ -4791,7 +4791,7 @@
       "depth": "surface",
       "unit": "PSU",
       "lead_day": 10,
-      "value": 0.559822
+      "value": 0.557026
     },
     {
       "metric": "rmsd_of_variables",
@@ -5021,7 +5021,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 1,
-      "value": 0.7715886655955196
+      "value": 0.77029
     },
     {
       "metric": "rmsd_of_variables",
@@ -5061,7 +5061,7 @@
       "depth": "300-600m",
       "unit": "°C",
       "lead_day": 1,
-      "value": 0.560422
+      "value": 0.560008
     },
     {
       "metric": "rmsd_of_variables",
@@ -5071,7 +5071,7 @@
       "depth": "0-5m",
       "unit": "PSU",
       "lead_day": 1,
-      "value": 0.24214
+      "value": 0.24213
     },
     {
       "metric": "rmsd_of_variables",
@@ -5111,7 +5111,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 1,
-      "value": 0.0524756104724402
+      "value": 0.052466
     },
     {
       "metric": "rmsd_of_variables",
@@ -5141,7 +5141,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 2,
-      "value": 0.8084524445052562
+      "value": 0.805605
     },
     {
       "metric": "rmsd_of_variables",
@@ -5151,7 +5151,7 @@
       "depth": "0-5m",
       "unit": "°C",
       "lead_day": 2,
-      "value": 0.785025327000849
+      "value": 0.783817
     },
     {
       "metric": "rmsd_of_variables",
@@ -5161,7 +5161,7 @@
       "depth": "5-100m",
       "unit": "°C",
       "lead_day": 2,
-      "value": 0.892169
+      "value": 0.889922
     },
     {
       "metric": "rmsd_of_variables",
@@ -5171,7 +5171,7 @@
       "depth": "100-300m",
       "unit": "°C",
       "lead_day": 2,
-      "value": 0.829503
+      "value": 0.829104
     },
     {
       "metric": "rmsd_of_variables",
@@ -5181,7 +5181,7 @@
       "depth": "300-600m",
       "unit": "°C",
       "lead_day": 2,
-      "value": 0.567222
+      "value": 0.566683
     },
     {
       "metric": "rmsd_of_variables",
@@ -5191,7 +5191,7 @@
       "depth": "0-5m",
       "unit": "PSU",
       "lead_day": 2,
-      "value": 0.250163
+      "value": 0.249614
     },
     {
       "metric": "rmsd_of_variables",
@@ -5201,7 +5201,7 @@
       "depth": "5-100m",
       "unit": "PSU",
       "lead_day": 2,
-      "value": 0.196005
+      "value": 0.195658
     },
     {
       "metric": "rmsd_of_variables",
@@ -5231,7 +5231,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 2,
-      "value": 0.053721
+      "value": 0.053665
     },
     {
       "metric": "rmsd_of_variables",
@@ -5261,7 +5261,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 3,
-      "value": 0.7754349587577185
+      "value": 0.770715
     },
     {
       "metric": "rmsd_of_variables",
@@ -5291,7 +5291,7 @@
       "depth": "100-300m",
       "unit": "°C",
       "lead_day": 3,
-      "value": 0.82158
+      "value": 0.821234
     },
     {
       "metric": "rmsd_of_variables",
@@ -5301,7 +5301,7 @@
       "depth": "300-600m",
       "unit": "°C",
       "lead_day": 3,
-      "value": 0.560227
+      "value": 0.558428
     },
     {
       "metric": "rmsd_of_variables",
@@ -5351,7 +5351,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 3,
-      "value": 0.054778
+      "value": 0.054732
     },
     {
       "metric": "rmsd_of_variables",
@@ -5381,7 +5381,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 4,
-      "value": 0.795102
+      "value": 0.789663
     },
     {
       "metric": "rmsd_of_variables",
@@ -5401,7 +5401,7 @@
       "depth": "5-100m",
       "unit": "°C",
       "lead_day": 4,
-      "value": 0.912737
+      "value": 0.912351
     },
     {
       "metric": "rmsd_of_variables",
@@ -5441,7 +5441,7 @@
       "depth": "5-100m",
       "unit": "PSU",
       "lead_day": 4,
-      "value": 0.196655
+      "value": 0.196404
     },
     {
       "metric": "rmsd_of_variables",
@@ -5501,7 +5501,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 5,
-      "value": 0.813136
+      "value": 0.80649
     },
     {
       "metric": "rmsd_of_variables",
@@ -5551,7 +5551,7 @@
       "depth": "0-5m",
       "unit": "PSU",
       "lead_day": 5,
-      "value": 0.25674
+      "value": 0.255792
     },
     {
       "metric": "rmsd_of_variables",
@@ -5621,7 +5621,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 6,
-      "value": 0.858723
+      "value": 0.851441
     },
     {
       "metric": "rmsd_of_variables",
@@ -5631,7 +5631,7 @@
       "depth": "0-5m",
       "unit": "°C",
       "lead_day": 6,
-      "value": 0.857726
+      "value": 0.853111
     },
     {
       "metric": "rmsd_of_variables",
@@ -5661,7 +5661,7 @@
       "depth": "300-600m",
       "unit": "°C",
       "lead_day": 6,
-      "value": 0.582676
+      "value": 0.581694
     },
     {
       "metric": "rmsd_of_variables",
@@ -5671,7 +5671,7 @@
       "depth": "0-5m",
       "unit": "PSU",
       "lead_day": 6,
-      "value": 0.265836
+      "value": 0.265645
     },
     {
       "metric": "rmsd_of_variables",
@@ -5741,7 +5741,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 7,
-      "value": 0.857354
+      "value": 0.850277
     },
     {
       "metric": "rmsd_of_variables",
@@ -5781,7 +5781,7 @@
       "depth": "300-600m",
       "unit": "°C",
       "lead_day": 7,
-      "value": 0.595691
+      "value": 0.592475
     },
     {
       "metric": "rmsd_of_variables",
@@ -5821,7 +5821,7 @@
       "depth": "300-600m",
       "unit": "PSU",
       "lead_day": 7,
-      "value": 0.082951
+      "value": 0.082886
     },
     {
       "metric": "rmsd_of_variables",
@@ -5861,7 +5861,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 8,
-      "value": 0.866044
+      "value": 0.860318
     },
     {
       "metric": "rmsd_of_variables",
@@ -5901,7 +5901,7 @@
       "depth": "300-600m",
       "unit": "°C",
       "lead_day": 8,
-      "value": 0.603545
+      "value": 0.601606
     },
     {
       "metric": "rmsd_of_variables",
@@ -5911,7 +5911,7 @@
       "depth": "0-5m",
       "unit": "PSU",
       "lead_day": 8,
-      "value": 0.241122
+      "value": 0.239122
     },
     {
       "metric": "rmsd_of_variables",
@@ -5981,7 +5981,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 9,
-      "value": 0.900693
+      "value": 0.89466
     },
     {
       "metric": "rmsd_of_variables",
@@ -6101,7 +6101,7 @@
       "depth": "surface",
       "unit": "°C",
       "lead_day": 10,
-      "value": 0.868248
+      "value": 0.860665
     },
     {
       "metric": "rmsd_of_variables",
@@ -6221,7 +6221,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 1,
-      "value": 18.272093
+      "value": 17.34816
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6231,7 +6231,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 2,
-      "value": 25.609327
+      "value": 22.515526
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6241,7 +6241,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 3,
-      "value": 31.208151
+      "value": 25.575758
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6251,7 +6251,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 4,
-      "value": 35.378246
+      "value": 27.639677
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6261,7 +6261,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 5,
-      "value": 38.599319
+      "value": 29.214407
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6271,7 +6271,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 6,
-      "value": 41.329697
+      "value": 30.515434
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6281,7 +6281,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 7,
-      "value": 43.746258
+      "value": 31.837036
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6291,7 +6291,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 8,
-      "value": 45.643005
+      "value": 32.766167
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6301,7 +6301,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 9,
-      "value": 47.159054
+      "value": 33.686756
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6311,7 +6311,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 10,
-      "value": 48.565971
+      "value": 34.649311
     },
     {
       "metric": "rmsd_of_geostrophic_currents",
@@ -6601,7 +6601,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 1,
-      "value": 34.358097
+      "value": 33.831467
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6611,7 +6611,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 2,
-      "value": 37.200401
+      "value": 34.927086
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6621,7 +6621,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 3,
-      "value": 40.408737
+      "value": 35.790627
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6631,7 +6631,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 4,
-      "value": 43.303806
+      "value": 36.443455
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6641,7 +6641,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 5,
-      "value": 45.713284
+      "value": 37.080692
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6651,7 +6651,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 6,
-      "value": 47.761978
+      "value": 37.677544
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6661,7 +6661,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 7,
-      "value": 49.732925
+      "value": 38.397049
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6671,7 +6671,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 8,
-      "value": 51.359234
+      "value": 38.998661
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6681,7 +6681,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 9,
-      "value": 52.620872
+      "value": 39.564713
     },
     {
       "metric": "rmsd_of_mixed_layer_depth",
@@ -6691,7 +6691,7 @@
       "depth": "surface",
       "unit": "m",
       "lead_day": 10,
-      "value": 53.808208
+      "value": 40.180664
     },
     {
       "metric": "rmsd_of_geostrophic_currents",
